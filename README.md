@@ -1,1 +1,1 @@
-# irelandmagic
+# travelmagic
