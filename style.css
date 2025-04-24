@@ -1,0 +1,19 @@
+/*for picture gallery format*/
+.grid-gallery {
+    --size: 100px;
+    display: grid;
+    grid-template-columns: repeat(6,var(--size));
+    grid-auto-rows: var(--size);
+    gap: 5px;
+    place-items: start center;
+    margin-bottom: var(--start);
+}
+
+.grid-gallery img {
+    width: calc(var(--size)*2);
+    height: calc(var(--size)*2);
+    object-fit: cover;
+    grid-column: auto / span 2;
+    border-radius: 5px;
+    clip-path: path("M90,10 C100,0 100,0 110,10 190,90 190,90 190,90 200,100 200,100 190,110 190,110 110,190 110,190 100,200 100,200 90,190 90,190 10,110 10,110 0,100 0,100 10,90Z");
+}
