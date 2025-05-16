@@ -2,6 +2,7 @@
 section.titlepage {
   display: flex;
   text-align: center;
+  color: #ebebeb;
   width: 100%;
   margin: auto;
   max-width: 1000px;
